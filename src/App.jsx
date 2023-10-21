@@ -1,13 +1,13 @@
 //* SCSS
-import './App.scss'
+import './App.scss';
+import AutoCount from './pages/learn_1';
 
 function App() {
-
   return (
     <>
-      <h1>App</h1>
+      <AutoCount />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
