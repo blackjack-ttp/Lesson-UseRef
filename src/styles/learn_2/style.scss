@@ -1,0 +1,19 @@
+.increase-wrap {
+    &__content {
+        display: flex;
+
+        h3 {
+            margin-right: 20px;
+            padding: 20px;
+            font-size: 3rem;
+        }
+    }
+
+    &__btn {
+        button {
+            padding: 25px 50px;
+            font-size: 2rem;
+            border: 2px solid #fff;
+        }
+    }
+}
