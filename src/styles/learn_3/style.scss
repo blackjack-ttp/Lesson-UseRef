@@ -1,0 +1,31 @@
+.inputFocus-wrap {
+    &__input {
+        display: flex;
+        flex-direction: column;
+
+        &__username,
+        &__password {
+            display: flex;
+            margin-bottom: 20px;
+            width: 300px;
+
+            p {
+                padding-right: 20px;
+                text-transform: uppercase;
+            }
+
+            input {
+                border-radius: 20px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+    &__btn {
+        button {
+            padding: 15px 40px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            border: 2px solid #ccc;
+        }
+    }
+}
