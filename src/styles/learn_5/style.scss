@@ -1,0 +1,19 @@
+.ExampleComponent-wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+    input {
+        width: 200px;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+    button {
+        width: 200px;
+        border: 1px solid #ccc;
+    }
+}
